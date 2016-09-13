@@ -1,0 +1,32 @@
+name = Kris
+description = Slackily ripped theme. Will be fixed later.
+core = 7.x
+base theme = bootstrap
+
+simplytest_dependencies[] = jquery_update
+
+settings[bootstrap_navbar_position] = 'fixed-top'
+settings[bootstrap_cdn] = 3.3.4
+
+stylesheets[all][] = common.less
+stylesheets[all][] = style.less
+
+scripts[] = kris.js
+
+regions[body_top] = Body top
+regions[page_top] = Page top
+regions[header] = Header
+regions[header_bg] = Header background
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[share] = Share
+regions[bottom] = Bottom
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+regions[body_bottom] = Body bottom
+
+
+
